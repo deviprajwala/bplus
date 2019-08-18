@@ -387,7 +387,7 @@ void verify(node root)
   int value,i,j,k=0,l,m,v1,v2;
   
 label5:
- if(root->p[0]!=NULL)
+ if(root->p[0]!=NULL&&root->leaf!=0)
  {
   value=root->key[0];
   cur=root->p[0];
